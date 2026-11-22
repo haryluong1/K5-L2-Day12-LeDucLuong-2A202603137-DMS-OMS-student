@@ -1,0 +1,113 @@
+﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
+D01.png,face,gaze_zone,khác giá trị (IoU=0.68),cluster,other,mine,4.5,"Giữ nguyên gaze_zone=cluster trên D01.png theo quan sát trực tiếp khe mắt, gọng kính cận và hướng nhìn của tài xế"
+D01.png,face13,left_eye_outer.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D01.png,face13,left_eye_inner.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên left_eye_inner.occluded=1 trên D01.png vì điểm mốc bị che khuất bởi vật cản/gọng kính/góc nghiêng
+D01.png,face13,left_eye_inner.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D01.png,face13,left_eye_upper.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D01.png,face13,left_eye_lower.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D01.png,face13,right_eye_outer.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên right_eye_outer.occluded=1 trên D01.png vì điểm mốc bị che khuất bởi vật cản/gọng kính/góc nghiêng
+D01.png,face13,right_eye_outer.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D01.png,face13,right_eye_inner.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên right_eye_inner.occluded=1 trên D01.png vì điểm mốc bị che khuất bởi vật cản/gọng kính/góc nghiêng
+D01.png,face13,right_eye_inner.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D01.png,face13,right_eye_upper.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên right_eye_upper.occluded=1 trên D01.png vì điểm mốc bị che khuất bởi vật cản/gọng kính/góc nghiêng
+D01.png,face13,right_eye_upper.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D01.png,face13,right_eye_lower.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên right_eye_lower.occluded=1 trên D01.png vì điểm mốc bị che khuất bởi vật cản/gọng kính/góc nghiêng
+D01.png,face13,right_eye_lower.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D01.png,face13,mouth_left.occluded,khác cờ,0,1,ambiguous,4.6,Giữ nguyên mouth_left.occluded=0 trên D01.png vì vẫn quan sát được vị trí mép môi/miệng
+D01.png,face13,lip_lower.occluded,khác cờ,0,1,ambiguous,4.6,Giữ nguyên lip_lower.occluded=0 trên D01.png vì vẫn quan sát được vị trí mép môi/miệng
+D02.png,person,seatbelt,khác giá trị (IoU=0.75),worn_correct,unknown,mine,4.7,Giữ nguyên seatbelt=worn_correct trên D02.png vì quan sát thấy rõ dải dây an toàn trên ảnh NIR khi tăng độ sáng/tương phản
+D02.png,face,eye_left,khác giá trị (IoU=0.68),open,closed,mine,4.5,"Giữ nguyên eye_left=open trên D02.png theo quan sát trực tiếp khe mắt, gọng kính cận và hướng nhìn của tài xế"
+D02.png,face,eye_right,khác giá trị (IoU=0.68),open,closed,mine,4.5,"Giữ nguyên eye_right=open trên D02.png theo quan sát trực tiếp khe mắt, gọng kính cận và hướng nhìn của tài xế"
+D02.png,face13,mouth_left.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên mouth_left.occluded=1 trên D02.png vì điểm mốc bị che khuất bởi vật cản/gọng kính/góc nghiêng
+D02.png,face13,mouth_right.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên mouth_right.occluded=1 trên D02.png vì điểm mốc bị che khuất bởi vật cản/gọng kính/góc nghiêng
+D02.png,face13,lip_upper.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên lip_upper.occluded=1 trên D02.png vì điểm mốc bị che khuất bởi vật cản/gọng kính/góc nghiêng
+D02.png,face13,lip_lower.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên lip_lower.occluded=1 trên D02.png vì điểm mốc bị che khuất bởi vật cản/gọng kính/góc nghiêng
+D03.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.2 & 4.7,Giữ nguyên đủ 2 box hand trên D03.png vì Guideline 4.2 yêu cầu gán mỗi bàn tay nhìn thấy được (peer bỏ sót 1 bàn tay)
+D03.png,face,eye_left,khác giá trị (IoU=0.73),open,unknown,mine,4.5,"Giữ nguyên eye_left=open trên D03.png theo quan sát trực tiếp khe mắt, gọng kính cận và hướng nhìn của tài xế"
+D03.png,face,eye_right,khác giá trị (IoU=0.73),open,unknown,mine,4.5,"Giữ nguyên eye_right=open trên D03.png theo quan sát trực tiếp khe mắt, gọng kính cận và hướng nhìn của tài xế"
+D03.png,face,gaze_zone,khác giá trị (IoU=0.73),road,other,mine,4.5,"Giữ nguyên gaze_zone=road trên D03.png theo quan sát trực tiếp khe mắt, gọng kính cận và hướng nhìn của tài xế"
+D03.png,face,glasses,khác giá trị (IoU=0.73),clear,unknown,mine,4.5,"Giữ nguyên glasses=clear trên D03.png theo quan sát trực tiếp khe mắt, gọng kính cận và hướng nhìn của tài xế"
+D03.png,person,seatbelt,khác giá trị (IoU=0.87),worn_correct,unknown,mine,4.7,Giữ nguyên seatbelt=worn_correct trên D03.png vì quan sát thấy rõ dải dây an toàn trên ảnh NIR khi tăng độ sáng/tương phản
+D03.png,face13,left_eye_outer.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D03.png,face13,left_eye_inner.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D03.png,face13,left_eye_upper.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D03.png,face13,left_eye_lower.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D03.png,face13,right_eye_outer.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D03.png,face13,right_eye_inner.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D03.png,face13,right_eye_upper.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D03.png,face13,right_eye_lower.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D03.png,face13,mouth_right.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên mouth_right.occluded=1 trên D03.png vì điểm mốc bị che khuất bởi vật cản/gọng kính/góc nghiêng
+D03.png,face13,lip_upper.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D03.png,face13,lip_lower.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D04.png,hand,side,khác giá trị (IoU=0.80),left,right,mine,4.4-2 & 4.7,Giữ nguyên side của 2 bàn tay theo đúng cơ thể tài xế trên ảnh xoay 90 độ
+D04.png,hand,side,khác giá trị (IoU=0.84),right,left,mine,4.4-2 & 4.7,Giữ nguyên side của 2 bàn tay theo đúng cơ thể tài xế trên ảnh xoay 90 độ
+D04.png,face,eye_left,khác giá trị (IoU=0.92),open,unknown,mine,4.5,"Giữ nguyên eye_left=open trên D04.png theo quan sát trực tiếp khe mắt, gọng kính cận và hướng nhìn của tài xế"
+D04.png,face,eye_right,khác giá trị (IoU=0.92),open,unknown,mine,4.5,"Giữ nguyên eye_right=open trên D04.png theo quan sát trực tiếp khe mắt, gọng kính cận và hướng nhìn của tài xế"
+D04.png,face13,left_eye_lower.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D04.png,face13,right_eye_outer.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D04.png,face13,right_eye_inner.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D04.png,face13,right_eye_upper.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D04.png,face13,right_eye_lower.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D04.png,face13,nose_tip.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D04.png,face13,mouth_right.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên mouth_right.occluded=1 trên D04.png vì điểm mốc bị che khuất bởi vật cản/gọng kính/góc nghiêng
+D04.png,face13,mouth_right.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D05.png,face,eye_left,khác giá trị (IoU=0.77),open,unknown,mine,4.5,"Giữ nguyên eye_left=open trên D05.png theo quan sát trực tiếp khe mắt, gọng kính cận và hướng nhìn của tài xế"
+D05.png,face,eye_right,khác giá trị (IoU=0.77),open,unknown,mine,4.5,"Giữ nguyên eye_right=open trên D05.png theo quan sát trực tiếp khe mắt, gọng kính cận và hướng nhìn của tài xế"
+D05.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.2 & 4.7,Giữ nguyên đủ 2 box hand trên D05.png vì Guideline 4.2 yêu cầu gán mỗi bàn tay nhìn thấy được (peer bỏ sót 1 bàn tay)
+D05.png,face13,left_eye_outer.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D05.png,face13,left_eye_inner.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D05.png,face13,left_eye_upper.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D05.png,face13,left_eye_lower.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D05.png,face13,right_eye_outer.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D05.png,face13,right_eye_inner.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D05.png,face13,right_eye_upper.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D05.png,face13,right_eye_lower.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D05.png,face13,mouth_left.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D05.png,face13,mouth_right.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên mouth_right.occluded=1 trên D05.png vì điểm mốc bị che khuất bởi vật cản/gọng kính/góc nghiêng
+D05.png,face13,mouth_right.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D05.png,face13,lip_upper.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D05.png,face13,lip_lower.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D06.png,person,seatbelt,khác giá trị (IoU=0.90),worn_incorrect,unknown,mine,4.7,Giữ nguyên seatbelt=worn_incorrect trên D06.png vì quan sát thấy rõ dải dây an toàn trên ảnh NIR khi tăng độ sáng/tương phản
+D06.png,face,eye_left,khác giá trị (IoU=0.79),open,unknown,mine,4.5,"Giữ nguyên eye_left=open trên D06.png theo quan sát trực tiếp khe mắt, gọng kính cận và hướng nhìn của tài xế"
+D06.png,face,eye_right,khác giá trị (IoU=0.79),open,unknown,peer,4.4-1 & 4.5,Sửa eye_right trên D06.png từ open thành unknown trong export_final_v2.zip cho khớp với 4 điểm right_eye_* bị che (occluded=1)
+D06.png,face13,left_eye_outer.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D06.png,face13,left_eye_inner.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D06.png,face13,left_eye_upper.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D06.png,face13,left_eye_lower.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D06.png,face13,right_eye_outer.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên right_eye_outer.occluded=1 trên D06.png vì điểm mốc bị che khuất bởi vật cản/gọng kính/góc nghiêng
+D06.png,face13,right_eye_outer.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D06.png,face13,right_eye_inner.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên right_eye_inner.occluded=1 trên D06.png vì điểm mốc bị che khuất bởi vật cản/gọng kính/góc nghiêng
+D06.png,face13,right_eye_inner.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D06.png,face13,right_eye_upper.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên right_eye_upper.occluded=1 trên D06.png vì điểm mốc bị che khuất bởi vật cản/gọng kính/góc nghiêng
+D06.png,face13,right_eye_upper.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D06.png,face13,right_eye_lower.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên right_eye_lower.occluded=1 trên D06.png vì điểm mốc bị che khuất bởi vật cản/gọng kính/góc nghiêng
+D06.png,face13,right_eye_lower.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+D06.png,face13,mouth_right.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên outside=0 vì điểm mốc vẫn nằm trên khuôn mặt trong khung hình (chỉ bật occluded=1 khi bị che, không bật outside=1)"
+S02_ir.png,infant_seat,facing,khác giá trị (IoU=0.96),rear,front,mine,4.8,Giữ nguyên facing=rear vì nôi em bé sơ sinh lắp quay ngược chiều xe (nhìn về phía sau xe)
+S02_ir.png,face,glasses,khác giá trị (IoU=0.91),none,unknown,mine,4.1 & 4.5,Giữ nguyên glasses=none trên S02_ir.png vì quan sát thấy rõ mặt hành khách (peer để giá trị mặc định vì Bảng 4.1 chỉ bắt buộc vẽ box face cho OMS)
+S02_rgb.png,infant_seat,facing,khác giá trị (IoU=0.96),rear,front,mine,4.8,Giữ nguyên facing=rear vì nôi em bé sơ sinh lắp quay ngược chiều xe (nhìn về phía sau xe)
+S03_rgb.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.40,,mine,4.4-5 & 4.8,Giữ nguyên box infant_seat trên S03_rgb.png vì đã căn chỉnh ôm sát mép ghế theo bản IR cùng cảnh
+S03_rgb.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.4-5 & 4.8,Giữ nguyên box infant_seat trên S03_rgb.png vì đã căn chỉnh ôm sát mép ghế theo bản IR cùng cảnh
+S04_ir.png,face,eye_left,khác giá trị (IoU=0.75),open,unknown,mine,4.1 & 4.5,Giữ nguyên eye_left=open trên S04_ir.png vì quan sát thấy rõ mặt hành khách (peer để giá trị mặc định vì Bảng 4.1 chỉ bắt buộc vẽ box face cho OMS)
+S04_ir.png,face,eye_right,khác giá trị (IoU=0.75),open,unknown,mine,4.1 & 4.5,Giữ nguyên eye_right=open trên S04_ir.png vì quan sát thấy rõ mặt hành khách (peer để giá trị mặc định vì Bảng 4.1 chỉ bắt buộc vẽ box face cho OMS)
+S04_ir.png,face,gaze_zone,khác giá trị (IoU=0.75),mirror_r,other,mine,4.1 & 4.5,Giữ nguyên gaze_zone=mirror_r trên S04_ir.png vì quan sát thấy rõ mặt hành khách (peer để giá trị mặc định vì Bảng 4.1 chỉ bắt buộc vẽ box face cho OMS)
+S04_ir.png,face,glasses,khác giá trị (IoU=0.75),none,unknown,mine,4.1 & 4.5,Giữ nguyên glasses=none trên S04_ir.png vì quan sát thấy rõ mặt hành khách (peer để giá trị mặc định vì Bảng 4.1 chỉ bắt buộc vẽ box face cho OMS)
+S04_rgb.png,face,eye_left,khác giá trị (IoU=0.71),open,unknown,mine,4.1 & 4.5,Giữ nguyên eye_left=open trên S04_rgb.png vì quan sát thấy rõ mặt hành khách (peer để giá trị mặc định vì Bảng 4.1 chỉ bắt buộc vẽ box face cho OMS)
+S04_rgb.png,face,eye_right,khác giá trị (IoU=0.71),open,unknown,mine,4.1 & 4.5,Giữ nguyên eye_right=open trên S04_rgb.png vì quan sát thấy rõ mặt hành khách (peer để giá trị mặc định vì Bảng 4.1 chỉ bắt buộc vẽ box face cho OMS)
+S04_rgb.png,face,gaze_zone,khác giá trị (IoU=0.71),mirror_r,other,mine,4.1 & 4.5,Giữ nguyên gaze_zone=mirror_r trên S04_rgb.png vì quan sát thấy rõ mặt hành khách (peer để giá trị mặc định vì Bảng 4.1 chỉ bắt buộc vẽ box face cho OMS)
+S04_rgb.png,face,glasses,khác giá trị (IoU=0.71),none,unknown,mine,4.1 & 4.5,Giữ nguyên glasses=none trên S04_rgb.png vì quan sát thấy rõ mặt hành khách (peer để giá trị mặc định vì Bảng 4.1 chỉ bắt buộc vẽ box face cho OMS)
+S05_ir.png,face,eye_left,khác giá trị (IoU=0.72),open,unknown,mine,4.1 & 4.5,Giữ nguyên eye_left=open trên S05_ir.png vì quan sát thấy rõ mặt hành khách (peer để giá trị mặc định vì Bảng 4.1 chỉ bắt buộc vẽ box face cho OMS)
+S05_ir.png,face,eye_right,khác giá trị (IoU=0.72),open,unknown,mine,4.1 & 4.5,Giữ nguyên eye_right=open trên S05_ir.png vì quan sát thấy rõ mặt hành khách (peer để giá trị mặc định vì Bảng 4.1 chỉ bắt buộc vẽ box face cho OMS)
+S05_ir.png,face,gaze_zone,khác giá trị (IoU=0.72),mirror_r,other,mine,4.1 & 4.5,Giữ nguyên gaze_zone=mirror_r trên S05_ir.png vì quan sát thấy rõ mặt hành khách (peer để giá trị mặc định vì Bảng 4.1 chỉ bắt buộc vẽ box face cho OMS)
+S05_ir.png,face,glasses,khác giá trị (IoU=0.72),none,unknown,mine,4.1 & 4.5,Giữ nguyên glasses=none trên S05_ir.png vì quan sát thấy rõ mặt hành khách (peer để giá trị mặc định vì Bảng 4.1 chỉ bắt buộc vẽ box face cho OMS)
+S05_rgb.png,face,eye_left,khác giá trị (IoU=0.77),open,unknown,mine,4.1 & 4.5,Giữ nguyên eye_left=open trên S05_rgb.png vì quan sát thấy rõ mặt hành khách (peer để giá trị mặc định vì Bảng 4.1 chỉ bắt buộc vẽ box face cho OMS)
+S05_rgb.png,face,eye_right,khác giá trị (IoU=0.77),open,unknown,mine,4.1 & 4.5,Giữ nguyên eye_right=open trên S05_rgb.png vì quan sát thấy rõ mặt hành khách (peer để giá trị mặc định vì Bảng 4.1 chỉ bắt buộc vẽ box face cho OMS)
+S05_rgb.png,face,gaze_zone,khác giá trị (IoU=0.77),mirror_r,other,mine,4.1 & 4.5,Giữ nguyên gaze_zone=mirror_r trên S05_rgb.png vì quan sát thấy rõ mặt hành khách (peer để giá trị mặc định vì Bảng 4.1 chỉ bắt buộc vẽ box face cho OMS)
+S05_rgb.png,face,glasses,khác giá trị (IoU=0.77),none,unknown,mine,4.1 & 4.5,Giữ nguyên glasses=none trên S05_rgb.png vì quan sát thấy rõ mặt hành khách (peer để giá trị mặc định vì Bảng 4.1 chỉ bắt buộc vẽ box face cho OMS)
+S08_ir.png,face,eye_left,khác giá trị (IoU=0.70),open,unknown,mine,4.1 & 4.5,Giữ nguyên eye_left=open trên S08_ir.png vì quan sát thấy rõ mặt hành khách (peer để giá trị mặc định vì Bảng 4.1 chỉ bắt buộc vẽ box face cho OMS)
+S08_ir.png,face,eye_right,khác giá trị (IoU=0.70),open,unknown,mine,4.1 & 4.5,Giữ nguyên eye_right=open trên S08_ir.png vì quan sát thấy rõ mặt hành khách (peer để giá trị mặc định vì Bảng 4.1 chỉ bắt buộc vẽ box face cho OMS)
+S08_ir.png,face,gaze_zone,khác giá trị (IoU=0.70),road,other,mine,4.1 & 4.5,Giữ nguyên gaze_zone=road trên S08_ir.png vì quan sát thấy rõ mặt hành khách (peer để giá trị mặc định vì Bảng 4.1 chỉ bắt buộc vẽ box face cho OMS)
+S08_ir.png,face,glasses,khác giá trị (IoU=0.70),none,unknown,mine,4.1 & 4.5,Giữ nguyên glasses=none trên S08_ir.png vì quan sát thấy rõ mặt hành khách (peer để giá trị mặc định vì Bảng 4.1 chỉ bắt buộc vẽ box face cho OMS)
+S08_rgb.png,person,seatbelt,khác giá trị (IoU=0.83),unknown,not_worn,mine,4.4-1 & 4.7,Giữ nguyên seatbelt=unknown trên S08_rgb vì ảnh RGB tối không thấy rõ vùng ngực (không suy đoán từ ảnh IR)
+S08_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.47,,mine,4.4-5 & 4.8,Giữ nguyên box child_seat trên S08_rgb.png vì đã căn chỉnh ôm sát mép ghế theo bản IR cùng cảnh
+S08_rgb.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.4-5 & 4.8,Giữ nguyên box child_seat trên S08_rgb.png vì đã căn chỉnh ôm sát mép ghế theo bản IR cùng cảnh

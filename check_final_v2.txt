@@ -1,0 +1,8 @@
+File: export_final_v2.zip
+Ảnh: 22 · đã có frame_meta: 22 · số đối tượng: child_seat=12, face=16, face13=6, hand=11, infant_seat=6, person=16
+  [WARN] D02.png: left_eye_outer nằm bên trái ảnh so với right_eye_outer: kiểm lại quy ước trái/phải theo người (đúng nếu mặt quay hẳn sang bên)
+  [WARN] D06.png: left_eye_outer nằm bên trái ảnh so với right_eye_outer: kiểm lại quy ước trái/phải theo người (đúng nếu mặt quay hẳn sang bên)
+Kết quả: 0 lỗi, 2 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
+
+Giải thích cảnh báo:
+- D02.png, D06.png: Ảnh Drive&Act bị xoay 90 độ nên trục hai mắt chạy theo chiều dọc (trục y). Mắt trái của tài xế nằm ở vị trí thấp hơn trên màn hình (toạ độ y lớn hơn mắt phải), đã kiểm tra quy ước trái/phải theo người lái hoàn toàn đúng theo hướng dẫn tại CHECKPOINTS.md và GUIDE.md. Cảnh báo eye_right trên D06.png ở bản v1 đã được khắc phục sau khi review chéo (đổi eye_right từ open sang unknown cho khớp với 4 điểm right_eye_* bị che).
