@@ -1,0 +1,10 @@
+File: export_final.zip
+Ảnh: 22 · đã có frame_meta: 22 · số đối tượng: child_seat=12, face=16, face13=6, hand=11, infant_seat=6, person=16
+  [WARN] D02.png: left_eye_outer nằm bên trái ảnh so với right_eye_outer: kiểm lại quy ước trái/phải theo người (đúng nếu mặt quay hẳn sang bên)
+  [WARN] D06.png: left_eye_outer nằm bên trái ảnh so với right_eye_outer: kiểm lại quy ước trái/phải theo người (đúng nếu mặt quay hẳn sang bên)
+  [WARN] D06.png: eye_right=open nhưng cả 4 điểm right_eye_* đều bị che: không thấy mắt thì eye_right nên là unknown
+Kết quả: 0 lỗi, 3 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
+
+Giải thích cảnh báo:
+- D02.png, D06.png: Ảnh Drive&Act bị xoay 90 độ nên trục hai mắt chạy theo chiều dọc (trục y). Mắt trái của tài xế nằm ở vị trí thấp hơn trên màn hình (toạ độ y lớn hơn mắt phải), đã kiểm tra quy ước trái/phải theo người lái hoàn toàn đúng theo hướng dẫn tại CHECKPOINTS.md và GUIDE.md.
+- D06.png (eye_right=open): Tài xế đeo kính trắng (glasses=clear), mắt vẫn đang mở (open) nhìn thấy xuyên qua tròng kính nhưng các điểm mốc mí mắt bị gọng kính cận đè lên nên được bật cờ occluded=1 theo quy tắc điểm bị che khuất.
